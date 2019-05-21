@@ -1,6 +1,5 @@
 {
   "xsappname": "mta_nodejs_s4sdk",
-  "tenant-mode": "shared",
   "description": "Security profile of called application",
   "scopes": [
 		{
