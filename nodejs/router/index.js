@@ -2,7 +2,7 @@
 "use strict";
 
 module.exports = (app, server) => {
-	app.use("/node/ex1", require("./routes/ex1")());
-	app.use("/node/ex2", require("./routes/ex2")());
-	app.use("/node/auth", require("./routes/auth")());	
+	app.use("/nodejs/ex1", require("./routes/ex1")());
+	app.use("/nodejs/ex2", require("./routes/ex2")());
+	app.use("/nodejs/auth", require("./routes/auth")());	
 };

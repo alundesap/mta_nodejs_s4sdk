@@ -7,8 +7,7 @@
     "passport": "latest"
   },
   "description": "NodeJS Worker",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "files": [],
   "main": "server.js",
   "name": "nodejs",
