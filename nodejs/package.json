@@ -2,6 +2,8 @@
   "dependencies": {
     "@sap/xssec": "latest",
     "@sap/xsenv": "latest",
+    "@sap/cloud-sdk-core": "~1.3.0",
+    "@sap/cloud-sdk-vdm-business-partner-service": "~1.3.0",
     "express": "latest",
     "async": "latest",
     "passport": "~0.4.0"
