@@ -4,7 +4,7 @@
     "@sap/xsenv": "latest",
     "express": "latest",
     "async": "latest",
-    "passport": "latest"
+    "passport": "~0.4.0"
   },
   "description": "NodeJS Worker",
   "devDependencies": {},
