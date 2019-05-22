@@ -1,7 +1,7 @@
 ID: mta_nodejs_s4sdk
 _schema-version: '2.1'
 description: Multi-Target Application demonstrating the NodeJS version of the S/4 HANA Cloud SDK
-version: 0.0.0
+version: 0.0.1
 modules:
   - name: web
     type: html5

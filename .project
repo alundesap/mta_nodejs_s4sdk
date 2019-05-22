@@ -1,0 +1,12 @@
+<projectDescription>
+<name>mta_nodejs_s4sdk_proj</name>
+<comment>Multi-Target Application demonstrating the NodeJS version of the S/4 HANA Cloud SDK.</comment>
+<projects></projects>
+<buildSpec>
+<buildCommand>
+<arguments></arguments>
+</buildCommand>
+</buildSpec>
+<natures>
+</natures>
+</projectDescription>
