@@ -2,6 +2,15 @@ _schema-version: '3.1'
 ID: mta_nodejs_s4sdk-mtaex
 extends: mta_nodejs_s4sdk
 
+modules:
+  - name: web
+    parameters:
+      host: prov-multi-s4sdk-web
+    properties:
+      TENANT_HOST_PATTERN: '^(.*)-s4sdk-web.cfapps.us10.hana.ondemand.com'
+  - name: nodejs
+    parameters:
+      host: prov-multi-s4sdk-njs
 resources:
   - name: s4sdk_uaa
     parameters:

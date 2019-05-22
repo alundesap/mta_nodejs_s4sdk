@@ -6,8 +6,8 @@
 			"name": "uaa.user",
 			"description": "UAA"
 		}
-	],
-	"role-templates": [
+  ],
+  "role-templates": [
     {
 		"name": "Token_Exchange",
 		"description": "UAA",
@@ -16,5 +16,4 @@
 		]
     }
   ]
-
 }

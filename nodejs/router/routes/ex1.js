@@ -7,7 +7,7 @@ module.exports = () => {
 
 	//Hello Router
 	app.get("/", (req, res) => {
-		res.send("Hello World Node.js");
+		res.send("Hello World S4SDK Node.js");
 	});
 	return app;
 };
