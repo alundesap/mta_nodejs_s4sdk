@@ -1,7 +1,7 @@
 /*eslint no-console: 0, no-unused-vars: 0, no-shadow: 0, new-cap: 0*/
 "use strict";
 var express = require("express");
-var sdk-core = require("@sap/cloud-sdk-core");
+// var sdk-core = require("@sap/cloud-sdk-core");
 import { BusinessPartner } from "@sap/cloud-sdk-vdm-business-partner-service";
 
 module.exports = () => {
