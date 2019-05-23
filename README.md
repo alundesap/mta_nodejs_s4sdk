@@ -17,3 +17,17 @@ cf ssh s4sdk-njs
 cf push s4sdk-web -m 512M -k 512M -n prov-multi-s4sdk-web -p web/
 cf push s4sdk-njs -m 512M -k 512M -n prov-multi-s4sdk-njs -p nodejs/
 
+minion -ungead -t cf
+
+cat out ; cat out | cut -c ${#PWD}- | cut -c 3-
+
+lenPWD=$(( ${#PWD}+2 )) ; cat out | cut -c ${lenPWD}-
+
+fswatch . | 
+
+cd /Users/i830671/git/mta_nodejs_s4sdk/nodejs
+
+<edit> sdk.js
+
+cf ssh-code > ../tmp/code ; ../tools/cp2cf router/routes/sdk.js
+

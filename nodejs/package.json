@@ -6,6 +6,7 @@
     "@sap/cloud-sdk-vdm-business-partner-service": "~1.3.0",
     "nodemon": "latest",
     "express": "latest",
+    "stringify-object": "latest",
     "async": "latest",
     "passport": "~0.4.0"
   },

@@ -31,6 +31,7 @@ modules:
       host: s4sdk-njs
     requires:
       - name: s4sdk_uaa
+      - name: s4sdk_dst
     provides:
       - name: nodejs_api
         properties:
@@ -45,3 +46,10 @@ resources:
       service-plan: application
       service: xsuaa
     type: org.cloudfoundry.managed-service
+  - name: s4sdk_dst
+    parameters:
+      service-plan: lite
+      service: destination
+    type: destination
+
+    
