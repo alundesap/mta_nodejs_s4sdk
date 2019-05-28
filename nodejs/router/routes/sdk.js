@@ -25,7 +25,7 @@ module.exports = () => {
 		resStr += "\nreqStr\n";
 
 		resStr += reqStr;
-
+/*
 		function getAllBusinessPartners(): Promise<BusinessPartner[]> {
 			  return BusinessPartner.requestBuilder()
 			    .getAll()
@@ -44,7 +44,7 @@ module.exports = () => {
 		resStr += "\nsdkStr\n";
 
 		resStr += sdkStr;
-		
+*/		
 		res.status(200).send(resStr);
 	});
 	return app;
